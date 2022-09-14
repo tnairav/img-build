@@ -19,7 +19,7 @@ jobs:
           go-version: '1.19.x'
       - run: |
           pwd
-          apt install libseccomp-dev -y
+          sudo apt install libseccomp-dev -y
 
           git clone https://github.com/genuinetools/img.git
 
