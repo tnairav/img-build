@@ -21,7 +21,7 @@ jobs:
           pwd
           sudo apt install libseccomp-dev -y
 
-          go get -u github.com/kevinburke/go-bindata
+          go install github.com/kevinburke/go-bindata
           git clone https://github.com/genuinetools/img.git
 
           pushd img
